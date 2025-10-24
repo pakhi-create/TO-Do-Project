@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SM High Tech To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SM High Tech Industrial Engineering Care</h1>
+    <h2>Course: Web Development</h2>
+    <h3>Trainer: Abdullah Al Mamun</h3>
+
+    <div class="input-section">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="text" id="polytechnic" placeholder="Your Polytechnic" />
+      <input type="text" id="classNo" placeholder="Class No." />
+      <input type="date" id="classDate" />
+      <input type="text" id="tools" placeholder="Class Tools Used" />
+      <input type="text" id="workDetails" placeholder="Class Work Details" />
+      <input type="text" id="remarks" placeholder="Remarks" />
+      <button id="submitBtn">Submit</button>
+    </div>
+
+    <div id="tableSection" class="hidden fade">
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>Your Name</th>
+            <th>Your Polytechnic</th>
+            <th>Class No.</th>
+            <th>Class Date</th>
+            <th>Class Tools Used</th>
+            <th>Class Work Details</th>
+            <th>Remarks</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>Developed by Kamrun Nahar</footer>
+
+  <script src="todo.js"></script>
+</body>
+</html>
